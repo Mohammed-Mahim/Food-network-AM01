@@ -23,7 +23,7 @@
 .menubar-section ul li a {
     display: inline-block;
     color: #fff;
-    font-size: 25px;
+    font-size: 22px;
     padding: 20px 40px;
     font-weight: 700;
     text-decoration: none;
@@ -58,7 +58,7 @@
     color: #000;
     font-size: 20px;
     padding: 10px 0 35px 0px;
-    font-weight: 400;
+    font-weight: 300;
 }
 .default-btn {
     text-decoration: none;
@@ -68,7 +68,7 @@
     border-radius: 20px;
     color: #fff;
     font-weight: 400;
-    box-shadow: 1px -1px 15px 1px #EB6076;
+    box-shadow: 1px -1px 10px -1px#eb6076;
 }
 .top-banner-section-content{
    margin-top: 2%;
@@ -107,4 +107,79 @@
     color: #EB6076;
     font-weight: 700;
     cursor: pointer;
+}
+
+/* recipies-section */
+.recipies{}
+.text{
+    text-align: center;
+}
+.text h1{
+    color: #EB6076;
+    font-size: 40px;
+}
+
+.text p{
+    color:#666 ;
+    padding: 1% 0;
+    margin:0 auto;
+    text-align: justify;
+    width: 400px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.recipies-container{
+    display: flex;
+    
+}
+.recipies-item {
+    max-width: 33.33%;
+    padding: 2% ;
+    margin: 4%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px -2px #aaaaaa;
+}
+.recipies-item h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #1D1D1D;
+    padding: 4% 0;
+    font-weight: 700;
+    font-size: 25px;
+}
+.recipies-item p{
+    padding: 2% 0;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.7rem;
+    text-align: justify;
+    font-weight: 300;
+}
+.recipe-color{
+    color: #DF2534;
+}
+.recipies-item img{
+    max-width: 100%;
+    border-radius:20px;
+}
+
+
+/* Footer-Section */
+
+.footer-content{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+}
+.footer-content h2{
+    font-size: 25px;
+    padding: 10px 0;
+}
+.food-color{
+    color:#EB6076
+}
+.footer-content p{
+    font-size: 14px;
+    font-weight: 100;
 }
