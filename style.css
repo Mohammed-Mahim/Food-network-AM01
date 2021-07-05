@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+    box-sizing: border-box;
+}
+
+
+/* navbar-section */
+
+.navbar{}
+.menubar-section{
+    background-color: #000;
+}
+.menubar-section ul{
+    list-style-type: none;
+}
+.menubar-section ul li{
+    display: inline-block;
+}
+.menubar-section ul li a {
+    display: inline-block;
+    color: #fff;
+    font-size: 25px;
+    padding: 20px 40px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: .4s all;
+}
+.menubar-section ul li a:hover{
+    background-color: rgb(68, 30, 30);
+}
