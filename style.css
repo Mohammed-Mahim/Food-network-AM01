@@ -34,8 +34,11 @@
 }
 
 /* top-section */
-.top-section{
+.flex-container{
     display: flex;
+}
+.top-section{
+    margin-bottom: 100px;
 }
 .half-width{
     max-width: 50%;
@@ -65,8 +68,8 @@
     border-radius: 20px;
     color: #fff;
     font-weight: 400;
+    box-shadow: 1px -1px 15px 1px #EB6076;
 }
-
 .top-banner-section-content{
    margin-top: 2%;
 }
@@ -76,3 +79,32 @@
 } 
 
 /* AboutME-Section */
+.about-me{
+    background: url("img/7.png") no-repeat;
+    
+}
+
+
+.about-me-image img{
+    max-width: 100%;
+    padding: 2% 10%;
+}
+
+.about-me-content{
+    padding: 17% 7%;
+}
+.about-me-content h1 {
+    color: #1D1D1F;
+    font-size: 40px;
+    padding: 3% 0px;
+}
+.about-me-content p {
+    color: brown;
+    font-size: 18px;
+    padding-bottom: 8%;
+}
+.jhankar-color{
+    color: #EB6076;
+    font-weight: 700;
+    cursor: pointer;
+}
