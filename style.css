@@ -9,12 +9,13 @@
 
 /* navbar-section */
 
-.navbar{}
+
 .menubar-section{
-    background-color: #000;
+    background-color: #EB6076;
 }
 .menubar-section ul{
     list-style-type: none;
+    
 }
 .menubar-section ul li{
     display: inline-block;
@@ -29,5 +30,49 @@
     transition: .4s all;
 }
 .menubar-section ul li a:hover{
-    background-color: rgb(68, 30, 30);
+    background-color: #E3273A;
 }
+
+/* top-section */
+.top-section{
+    display: flex;
+}
+.half-width{
+    max-width: 50%;
+}
+.top-banner-section-content{
+    padding: 6% 8%;
+}
+.top-banner-section-content h1 {
+    font-size: 45px;
+    padding: 15px 0;
+    color: #E3273A;
+}
+.skip-color{
+    color: #FB934A;
+}
+.top-banner-section-content p {
+    color: #000;
+    font-size: 20px;
+    padding: 10px 0 35px 0px;
+    font-weight: 400;
+}
+.default-btn {
+    text-decoration: none;
+    font-size: 20px;
+    background: linear-gradient(rgb(224, 149, 9), rgb(233, 37, 3));
+    padding: 12px 25px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.top-banner-section-content{
+   margin-top: 2%;
+}
+.top-banner-section-image  img{
+    margin-top: 15%;
+    max-width: 70%;
+} 
+
+/* AboutME-Section */
